@@ -5,9 +5,7 @@ type Node<T> = {
 
 export default class Stack<T> {
     public length: number;
-    private head?: Node<T>
-
-
+    private head?: Node<T>;
 
     constructor() {
         this.head = undefined

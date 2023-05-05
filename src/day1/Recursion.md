@@ -1,6 +1,6 @@
 ## Recursion
 
-Recurtions are funtions that call them self
+Recursions are functions that call them self
 
 E.g :
 
@@ -14,8 +14,9 @@ function foo(n: number): number {
   return n + foo(n-1)
 }
 
-It can be broke down to:
+we can break it down to:
 
-pre..
-precusion..
+base case
+pre...
+recursion../
 post...
